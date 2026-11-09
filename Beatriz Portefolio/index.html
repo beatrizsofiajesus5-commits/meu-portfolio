@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#eaf2ff">
+    <meta name="description" content="Portefólio pessoal de Beatriz Miranda, estudante de Desenvolvimento de Software.">
+    <title data-i18n="page_title">Portefólio | Beatriz Miranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo" data-i18n="skip_content">Saltar para o conteúdo</a>
+    <div class="reading-progress" id="reading-progress" role="progressbar" aria-label="Progresso da leitura" data-i18n-aria="reading_progress_label" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span class="reading-progress-bar" id="reading-progress-bar"></span>
+    </div>
+    <div class="page-glow" aria-hidden="true"></div>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="#inicio" aria-label="BM — início">BM<span>.</span></a>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="#inicio" data-i18n="nav_home">Início</a>
+                <a href="#sobre" data-i18n="nav_about">Sobre mim</a>
+                <a href="#projetos" data-i18n="nav_projects">Projetos</a>
+                <a href="#impressao-3d" data-i18n="nav_shop">Loja 3D</a>
+                <a href="#mini-projetos" data-i18n="nav_playground">Demos</a>
+                <a href="#percurso" data-i18n="nav_learning">Percurso</a>
+                <a href="#competencias" data-i18n="nav_skills">Competências</a>
+                <a href="#certificados" data-i18n="nav_certificates">Certificados</a>
+                <a href="#contactos" data-i18n="nav_contact">Contactos</a>
+            </nav>
+            <div class="header-actions">
+                <div class="language-switch" role="group" aria-label="Idioma" data-i18n-aria="language_label">
+                    <button type="button" lang="pt-PT" data-language="pt" aria-pressed="true">PT</button>
+                    <button type="button" lang="en" data-language="en" aria-pressed="false">EN</button>
+                    <button type="button" lang="es" data-language="es" aria-pressed="false">ES</button>
+                    <button type="button" lang="fr" data-language="fr" aria-pressed="false">FR</button>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ativar tema escuro" aria-pressed="false" data-i18n-aria="theme_enable" title="Ativar tema escuro" data-i18n-title="theme_enable">
+                    <span aria-hidden="true">☾</span>
+                </button>
+            </div>
+        </header>
+
+        <main id="conteudo" tabindex="-1">
+            <section class="hero-section" id="inicio">
+                <div class="hero-copy">
+                    <div class="hero-badge"><span aria-hidden="true">✦</span><span data-i18n="hero_badge">Pronta para o futuro</span></div>
+                    <h1 class="hero-title"><span data-i18n="hero_software">Software</span><br><span class="gradient-text" data-i18n="hero_developer">Developer</span></h1>
+                    <p class="hero-role"><span data-i18n="hero_role">Estudante de Desenvolvimento Full Stack</span></p>
+                    <p class="hero-description" data-i18n="hero_description">A construir projetos funcionais e criativos enquanto aprendo a criar experiências digitais úteis e intuitivas.</p>
+
+                    <div class="hero-tech-list" aria-label="Tecnologias que estou a aprender" data-i18n-aria="learning_tech_label">
+                        <span>HTML</span><span>JavaScript</span><span>Python</span><span>CSS</span>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projetos"><span data-i18n="button_projects">Ver projetos</span><span aria-hidden="true">↗</span></a>
+                        <a class="button button-glass" href="mailto:beatrizsofiajesus5@gmail.com"><span data-i18n="button_contact">Contactar</span><span aria-hidden="true">✉</span></a>
+                        <a class="button button-cv" href="V2%20%282%29.pdf" target="_blank" rel="noopener noreferrer" data-i18n="button_cv">Currículo</a>
+                        <a class="button button-glass button-cv-download" href="V2%20%282%29.pdf" download="Beatriz-Miranda-CV.pdf"><span data-i18n="button_cv_download">Descarregar currículo</span><span aria-hidden="true">↓</span></a>
+                    </div>
+
+                    <div class="social-links" aria-label="Redes sociais">
+                        <a href="https://github.com/beatrizsofiajesus5-commits" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1 15 3.3a13.3 13.3 0 0 0-7 0C5.5 1 4.3 1.5 4.3 1.5a4.8 4.8 0 0 0-.1 3.6A5.2 5.2 0 0 0 2.8 8.7c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18.1V22"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/beatriz-miranda2011/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-computer" role="img" aria-label="Ilustração de um computador com código no ecrã" data-i18n-aria="computer_alt">
+                    <span class="computer-glow" aria-hidden="true"></span>
+                    <svg viewBox="0 0 520 420" aria-hidden="true" focusable="false">
+                        <defs>
+                            <linearGradient id="screen-frame" x1="88" y1="66" x2="412" y2="310" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#292443"/>
+                                <stop offset="1" stop-color="#101525"/>
+                            </linearGradient>
+                            <linearGradient id="screen-glow" x1="145" y1="113" x2="376" y2="276" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#16152c"/>
+                                <stop offset="1" stop-color="#101d32"/>
+                            </linearGradient>
+                            <linearGradient id="computer-base" x1="160" y1="314" x2="360" y2="354" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7463bd"/>
+                                <stop offset="1" stop-color="#455b9a"/>
+                            </linearGradient>
+                            <filter id="computer-shadow" x="48" y="34" width="424" height="366" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                <feGaussianBlur stdDeviation="17"/>
+                            </filter>
+                        </defs>
+                        <ellipse cx="260" cy="346" rx="165" ry="25" fill="#8064e8" fill-opacity=".2" filter="url(#computer-shadow)"/>
+                        <rect x="83" y="48" width="354" height="268" rx="19" fill="url(#screen-frame)" stroke="#bca7ff" stroke-opacity=".62" stroke-width="2"/>
+                        <rect x="98" y="63" width="324" height="237" rx="11" fill="url(#screen-glow)" stroke="#ffffff" stroke-opacity=".08"/>
+                        <circle cx="260" cy="56" r="2" fill="#cab8ff" fill-opacity=".7"/>
+                        <path d="M99 91h322" stroke="#c4b5fd" stroke-opacity=".13"/>
+                        <circle cx="115" cy="78" r="3" fill="#f2a5dd"/>
+                        <circle cx="127" cy="78" r="3" fill="#e5c080"/>
+                        <circle cx="139" cy="78" r="3" fill="#91ddb8"/>
+                        <rect x="119" y="113" width="8" height="8" rx="2" fill="#bc9cff"/>
+                        <path d="m140 115 10 5-10 5" stroke="#bc9cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path d="M158 120h102" stroke="#c8b9ff" stroke-linecap="round" stroke-opacity=".75" stroke-width="5"/>
+                        <rect x="119" y="145" width="8" height="8" rx="2" fill="#f2a5dd" fill-opacity=".85"/>
+                        <path d="M140 149h54" stroke="#f2a5dd" stroke-linecap="round" stroke-opacity=".8" stroke-width="5"/>
+                        <path d="M202 149h88" stroke="#8bc7ff" stroke-linecap="round" stroke-opacity=".72" stroke-width="5"/>
+                        <rect x="119" y="177" width="8" height="8" rx="2" fill="#bc9cff" fill-opacity=".8"/>
+                        <path d="M140 181h84" stroke="#8bc7ff" stroke-linecap="round" stroke-opacity=".7" stroke-width="5"/>
+                        <path d="M232 181h116" stroke="#c8b9ff" stroke-linecap="round" stroke-opacity=".52" stroke-width="5"/>
+                        <rect x="119" y="209" width="8" height="8" rx="2" fill="#91ddb8" fill-opacity=".85"/>
+                        <path d="M140 213h38" stroke="#91ddb8" stroke-linecap="round" stroke-opacity=".8" stroke-width="5"/>
+                        <path d="M186 213h119" stroke="#c8b9ff" stroke-linecap="round" stroke-opacity=".58" stroke-width="5"/>
+                        <path d="M119 245h176" stroke="#c8b9ff" stroke-linecap="round" stroke-opacity=".24" stroke-width="5"/>
+                        <path d="M237 317v22" stroke="#8193d5" stroke-width="10"/>
+                        <path d="M215 338h90l29 17H186l29-17Z" fill="url(#computer-base)" stroke="#bca7ff" stroke-opacity=".42" stroke-width="1.5"/>
+                        <path d="M225 348h70" stroke="#d7ccff" stroke-linecap="round" stroke-opacity=".48" stroke-width="2"/>
+                        <circle cx="399" cy="115" r="3" fill="#d5baff"/>
+                        <circle cx="416" cy="147" r="2" fill="#84bfff"/>
+                        <circle cx="100" cy="235" r="2.5" fill="#ec9cdb"/>
+                        <path d="M405 178v16m-8-8h16" stroke="#c9b5ff" stroke-linecap="round" stroke-opacity=".55" stroke-width="2"/>
+                    </svg>
+                    <span class="computer-caption" data-i18n="computer_caption">Ideias a ganhar forma</span>
+                </div>
+
+                <a class="scroll-cue" href="#projetos" aria-label="Descer para os projetos" data-i18n-aria="scroll_label"><span aria-hidden="true">↓</span></a>
+            </section>
+
+            <section class="content-section about-section" id="sobre">
+                <div class="about-visual">
+                    <div class="visual-orbit orbit-one"></div>
+                    <div class="visual-orbit orbit-two"></div>
+                    <div class="portrait-frame">
+                        <img src="foto%20de%20prefil.png" alt="Fotografia de Beatriz Miranda" data-i18n-alt="photo_alt" decoding="async">
+                    </div>
+                    <div class="visual-tag"><span class="status-dot"></span><span data-i18n="learning_status">A aprender e a criar</span></div>
+                    <div class="visual-index">BM / 01</div>
+                </div>
+                <div class="about-copy">
+                    <p class="eyebrow" data-i18n="about_eyebrow">UM POUCO SOBRE MIM</p>
+                    <h2 data-i18n="about_title">Curiosa, empenhada e sempre a aprender.</h2>
+                    <p data-i18n="about_description">Sou uma estudante responsável, organizada, pontual e empenhada. Gosto de trabalhar em equipa, resolver problemas e aprender coisas novas. Tenho interesse pela programação e pela tecnologia e quero desenvolver as minhas competências na área do software.</p>
+                </div>
+                <div class="about-traits" aria-label="As minhas qualidades" data-i18n-aria="traits_label">
+                    <div class="trait-card"><span class="trait-number">01</span><h3 data-i18n="trait_teamwork">Trabalho em equipa</h3><p data-i18n="trait_teamwork_text">Gosto de colaborar, partilhar ideias e aprender com outras pessoas.</p></div>
+                    <div class="trait-card"><span class="trait-number">02</span><h3 data-i18n="trait_problem">Resolução de problemas</h3><p data-i18n="trait_problem_text">Encaro desafios com curiosidade e vontade de encontrar soluções.</p></div>
+                    <div class="trait-card"><span class="trait-number">03</span><h3 data-i18n="trait_growth">Aprendizagem contínua</h3><p data-i18n="trait_growth_text">Estou motivada para aprender e melhorar as minhas competências.</p></div>
+                </div>
+            </section>
+
+            <section class="content-section" id="projetos">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="projects_eyebrow">TRABALHO EM DESTAQUE</p>
+                    <h2 data-i18n="projects_title">Projetos em destaque</h2>
+                    <p data-i18n="projects_intro">Trabalhos escolares e pessoais que fazem parte do meu percurso de aprendizagem.</p>
+                    <p class="project-preview-note" data-i18n="project_preview_note">As imagens dos cartões são ilustrações representativas dos projetos.</p>
+                </div>
+                <div class="project-filters" role="group" aria-label="Filtrar projetos" data-i18n-aria="project_filter_label">
+                    <button class="project-filter is-active" type="button" data-project-filter="all" aria-pressed="true" data-i18n="project_filter_all">Todos</button>
+                    <button class="project-filter" type="button" data-project-filter="school" aria-pressed="false" data-i18n="project_filter_school">Escolares</button>
+                    <button class="project-filter" type="button" data-project-filter="personal" aria-pressed="false" data-i18n="project_filter_personal">Pessoais</button>
+                </div>
+                <p class="project-filter-status" id="project-filter-status" role="status" aria-live="polite">Resultados: 2</p>
+                <div class="project-grid">
+                    <article class="project-card" data-project-type="school">
+                        <div class="project-art art-algorithm" aria-hidden="true"><span class="algorithm-orbit"></span><span class="algorithm-node node-one"></span><span class="algorithm-node node-two"></span><span class="algorithm-node node-three"></span><span class="algorithm-node node-four"></span></div>
+                        <div class="project-content">
+                            <div class="project-meta"><span data-i18n="school_project_label">PROJETO ESCOLAR</span><span>01</span></div>
+                            <h3 data-i18n="instagram_title">Algoritmo do Instagram</h3>
+                            <p data-i18n="instagram_description">Trabalho escolar de pesquisa sobre o funcionamento do algoritmo do Instagram.</p>
+                            <p class="project-learning"><strong data-i18n="project_learning_label">O que pratiquei</strong><span data-i18n="instagram_learning">Pesquisa, organização de informação e comunicação de ideias.</span></p>
+                            <div class="project-tags"><span data-i18n="research_tag">Pesquisa</span><span>Instagram</span></div>
+                            <details class="project-details">
+                                <summary data-i18n="project_details_label">Mais detalhes</summary>
+                                <p data-i18n="instagram_details">O trabalho consistiu em pesquisar como funciona o algoritmo e organizar a informação recolhida para a apresentar.</p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-type="personal">
+                        <div class="project-art art-portfolio" aria-hidden="true"><span class="portfolio-browser"><span></span><span></span><span></span><i></i><b></b></span></div>
+                        <div class="project-content">
+                            <div class="project-meta"><span data-i18n="personal_project_label">PROJETO PESSOAL</span><span>02</span></div>
+                            <h3 data-i18n="portfolio_title">Portefólio pessoal</h3>
+                            <p data-i18n="portfolio_description">Este site, criado para apresentar o meu percurso, os meus projetos e as tecnologias que estou a aprender.</p>
+                            <p class="project-learning"><strong data-i18n="project_learning_label">O que pratiquei</strong><span data-i18n="portfolio_learning">Estruturação de páginas, estilos responsivos e interatividade.</span></p>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <details class="project-details">
+                                <summary data-i18n="project_details_label">Mais detalhes</summary>
+                                <p data-i18n="portfolio_details">Site feito com HTML, CSS e JavaScript, com navegação em quatro idiomas, adaptações a ecrãs pequenos e grandes e animações acessíveis.</p>
+                                <h4 data-i18n="portfolio_process_title">Como desenvolvi este portefólio</h4>
+                                <ol class="project-process">
+                                    <li data-i18n="portfolio_process_plan">Organizei as secções para apresentar os projetos e o percurso de aprendizagem.</li>
+                                    <li data-i18n="portfolio_process_build">Usei HTML, CSS e JavaScript para criar a página, as traduções e as demonstrações interativas.</li>
+                                    <li data-i18n="portfolio_process_polish">Adaptei a página a diferentes ecrãs e incluí opções como tema escuro e movimento reduzido.</li>
+                                </ol>
+                            </details>
+                            <div class="project-actions">
+                                <a class="project-action" href="https://github.com/beatrizsofiajesus5-commits/meu-portfolio" target="_blank" rel="noopener noreferrer" data-i18n="view_code">Ver código</a>
+                                <a class="project-action" href="https://beatrizsofiajesus5-commits.github.io/meu-portfolio/" target="_blank" rel="noopener noreferrer" data-i18n="view_demo">Ver demonstração</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section print-shop-section" id="impressao-3d" aria-labelledby="print-shop-title">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="print_shop_eyebrow">IMPRESSÕES POR ENCOMENDA</p>
+                    <h2 id="print-shop-title" data-i18n="print_shop_title">Loja de impressões 3D</h2>
+                    <p data-i18n="print_shop_intro">Peças impressas em 3D por encomenda. Contacta-me para combinar o modelo, as dimensões, a cor, o preço e o prazo antes da produção.</p>
+                </div>
+                <div class="print-category-view" id="print-category-view" hidden>
+                    <h3 id="print-category-heading"></h3>
+                    <a href="index.html#impressao-3d" data-i18n="print_category_all">Ver todos os produtos</a>
+                </div>
+                <div class="print-grid">
+                    <article class="print-card" data-product-category="decoration">
+                        <div class="print-art print-art-decor" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_decor">DECORAÇÃO</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=decoration#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_decor_title">Peças decorativas</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_decor_text">Objetos decorativos impressos por encomenda, com cores e dimensões a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="decor" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="organization">
+                        <div class="print-art print-art-organize" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_organize">ORGANIZAÇÃO</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=organization#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_organize_title">Acessórios de organização</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_organize_text">Peças funcionais feitas à medida das tuas necessidades e do espaço disponível.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="organize" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="accessories">
+                        <div class="print-art print-art-phone-stand" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_tech">ACESSÓRIOS</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=accessories#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_phone_stand_title">Suporte para telemóvel</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_phone_stand_text">Suporte de secretária feito por encomenda, com tamanho e cor a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="phone-stand" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="personalized">
+                        <div class="print-art print-art-keychain" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_personal">PERSONALIZÁVEIS</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=personalized#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_keychain_title">Porta-chaves personalizado</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_keychain_text">Porta-chaves com forma, inicial ou pequeno detalhe personalizado a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="keychain" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="decoration">
+                        <div class="print-art print-art-planter" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_decor">DECORAÇÃO</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=decoration#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_planter_title">Vaso pequeno</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_planter_text">Vaso decorativo compacto, impresso por encomenda em cor e tamanho a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="planter" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="accessories">
+                        <div class="print-art print-art-bookmark" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_accessory">ACESSÓRIOS</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=accessories#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_bookmark_title">Marcador de livros</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_bookmark_text">Marcador leve com um formato simples, com cor e detalhe a escolher.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="bookmark" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="organization">
+                        <div class="print-art print-art-cable-clips" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_organize">ORGANIZAÇÃO</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=organization#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_cable_clips_title">Organizador de cabos</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_cable_clips_text">Clips para manter cabos arrumados na secretária, com tamanho a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="cable-clips" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="accessories">
+                        <div class="print-art print-art-headphone-hook" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_accessory">ACESSÓRIOS</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=accessories#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_headphone_hook_title">Suporte para auscultadores</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_headphone_hook_text">Suporte compacto para secretária, com formato e cor a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="headphone-hook" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="decoration">
+                        <div class="print-art print-art-plant-markers" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_decor">DECORAÇÃO</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=decoration#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_plant_markers_title">Marcadores para plantas</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_plant_markers_text">Marcadores para identificar vasos e plantas, com texto curto a combinar.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="plant-markers" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                    <article class="print-card" data-product-category="custom">
+                        <div class="print-art print-art-custom" aria-hidden="true"><span></span></div>
+                        <div class="print-card-content">
+                            <p class="eyebrow" data-i18n="print_category_custom">PERSONALIZADAS</p>
+                            <h3><a class="print-category-link" href="index.html?categoria=custom#impressao-3d" target="_blank" rel="noopener" data-i18n-title="print_category_link"><span data-i18n="print_custom_title">Encomendas personalizadas</span><span aria-hidden="true">↗</span></a></h3>
+                            <p data-i18n="print_custom_text">Tens uma ideia ou um modelo próprio? Contacta-me para conversarmos sobre a possibilidade de o imprimir.</p>
+                            <button class="project-action print-order-link" type="submit" form="print-order-form" name="product" value="custom" data-i18n="print_order">Pedir orçamento</button>
+                        </div>
+                    </article>
+                </div>
+                <p class="print-shop-note" data-i18n="print_shop_note">Cada pedido é confirmado contigo antes de avançar. O preço e o prazo dependem da peça e serão combinados por email.</p>
+                <form class="print-payment-form" id="print-order-form">
+                    <fieldset>
+                        <legend data-i18n="print_payment_title">Indica a tua forma de pagamento preferida</legend>
+                        <p class="print-payment-description" data-i18n="print_payment_description">Escolhe uma opção para incluir no pedido de orçamento.</p>
+                        <div class="print-payment-options">
+                            <label><input type="radio" name="payment-method" value="mbway" required><span data-i18n="print_payment_mbway">MB WAY</span></label>
+                            <label><input type="radio" name="payment-method" value="paypal"><span data-i18n="print_payment_paypal">PayPal</span></label>
+                            <label><input type="radio" name="payment-method" value="transfer"><span data-i18n="print_payment_transfer">Transferência bancária</span></label>
+                            <label><input type="radio" name="payment-method" value="multibanco"><span data-i18n="print_payment_multibanco">Referência Multibanco</span></label>
+                            <label><input type="radio" name="payment-method" value="cash"><span data-i18n="print_payment_cash">Dinheiro no levantamento/entrega</span></label>
+                        </div>
+                        <p class="print-payment-note" data-i18n="print_payment_notice">A opção indicada é apenas uma preferência. O preço e a disponibilidade são confirmados por email; este site não processa pagamentos.</p>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="content-section mini-projects-section" id="mini-projetos" aria-labelledby="mini-projects-title">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="playground_eyebrow">EXPERIMENTA</p>
+                    <h2 id="mini-projects-title" data-i18n="playground_title">Mini projetos interativos</h2>
+                    <p data-i18n="playground_intro">Pequenas demonstrações feitas com JavaScript. Podes experimentar cada uma diretamente nesta página.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card mini-project-card">
+                        <div class="project-art art-todo" aria-hidden="true"><span>✓</span><span>+</span><span>···</span></div>
+                        <div class="project-content">
+                            <div class="project-meta"><span data-i18n="personal_project_label">PROJETO PESSOAL</span><span>03</span></div>
+                            <h3 data-i18n="todo_title">Lista de tarefas</h3>
+                            <p data-i18n="todo_description">Adiciona tarefas e marca as que já terminaste.</p>
+                            <p class="project-learning"><strong data-i18n="project_learning_label">O que pratiquei</strong><span data-i18n="todo_learning">Eventos, formulários e atualização dinâmica da página.</span></p>
+                            <details class="project-details">
+                                <summary data-i18n="project_details_label">Mais detalhes</summary>
+                                <p data-i18n="todo_details">As tarefas ficam apenas nesta página enquanto está aberta; não são enviadas nem guardadas num servidor.</p>
+                            </details>
+                            <div class="mini-demo">
+                                <form class="todo-form" id="todo-form">
+                                    <label class="visually-hidden" for="todo-input" data-i18n="todo_input_label">Nova tarefa</label>
+                                    <input id="todo-input" name="task" type="text" maxlength="80" autocomplete="off" placeholder="Escreve uma tarefa..." data-i18n-placeholder="todo_placeholder" required>
+                                    <button class="project-action" type="submit" data-i18n="todo_add">Adicionar</button>
+                                </form>
+                                <ul class="todo-list" id="todo-list" aria-label="Tarefas" data-i18n-aria="todo_list_label"></ul>
+                                <p class="todo-empty" id="todo-empty" data-i18n="todo_empty">Ainda não adicionaste tarefas.</p>
+                                <p class="demo-status" id="todo-status" role="status" aria-live="polite"></p>
+                            </div>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card mini-project-card">
+                        <div class="project-art art-quiz" aria-hidden="true"><span>?</span><i></i><i></i><i></i></div>
+                        <div class="project-content">
+                            <div class="project-meta"><span data-i18n="personal_project_label">PROJETO PESSOAL</span><span>04</span></div>
+                            <h3 data-i18n="quiz_title">Quiz de tecnologia</h3>
+                            <p data-i18n="quiz_description">Responde a três perguntas rápidas sobre desenvolvimento Web.</p>
+                            <p class="project-learning"><strong data-i18n="project_learning_label">O que pratiquei</strong><span data-i18n="quiz_learning">Estado da aplicação, eventos e feedback imediato.</span></p>
+                            <details class="project-details">
+                                <summary data-i18n="project_details_label">Mais detalhes</summary>
+                                <p data-i18n="quiz_details">O quiz mostra a pontuação no final e permite recomeçar. As perguntas estão disponíveis nos quatro idiomas do portefólio.</p>
+                            </details>
+                            <div class="mini-demo quiz-demo" id="quiz-demo">
+                                <p class="quiz-question" id="quiz-question"></p>
+                                <div class="quiz-options">
+                                    <button class="project-action quiz-option" type="button" data-answer="0"></button>
+                                    <button class="project-action quiz-option" type="button" data-answer="1"></button>
+                                    <button class="project-action quiz-option" type="button" data-answer="2"></button>
+                                </div>
+                                <p class="demo-status" id="quiz-feedback" role="status" aria-live="polite"></p>
+                                <p class="quiz-score-line"><span data-i18n="quiz_score_label">Pontuação</span>: <span id="quiz-score">0/3</span></p>
+                                <button class="project-action quiz-next" id="quiz-next" type="button" disabled data-i18n="quiz_next">Seguinte</button>
+                            </div>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card mini-project-card">
+                        <div class="project-art art-calculator" aria-hidden="true"><span>123</span><b>+</b></div>
+                        <div class="project-content">
+                            <div class="project-meta"><span data-i18n="personal_project_label">PROJETO PESSOAL</span><span>05</span></div>
+                            <h3 data-i18n="calculator_title">Calculadora</h3>
+                            <p data-i18n="calculator_description">Faz operações básicas e testa números decimais.</p>
+                            <p class="project-learning"><strong data-i18n="project_learning_label">O que pratiquei</strong><span data-i18n="calculator_learning">Lógica, operações matemáticas e tratamento de erros.</span></p>
+                            <details class="project-details">
+                                <summary data-i18n="project_details_label">Mais detalhes</summary>
+                                <p data-i18n="calculator_details">A calculadora suporta adição, subtração, multiplicação, divisão e números decimais; a divisão por zero é tratada sem bloquear a página.</p>
+                            </details>
+                            <div class="mini-demo calculator-demo" id="calculator-demo">
+                                <output class="calculator-display" id="calc-display" aria-label="Visor da calculadora" data-i18n-aria="calculator_display">0</output>
+                                <div class="calculator-keys" aria-label="Teclas da calculadora" data-i18n-aria="calculator_keys">
+                                    <button class="project-action calc-key calc-clear" type="button" data-calc="clear" aria-label="Limpar" data-i18n-aria="calculator_clear">AC</button>
+                                    <button class="project-action calc-key" type="button" data-calc="operator" data-value="/" aria-label="Dividir" data-i18n-aria="calculator_divide">÷</button>
+                                    <button class="project-action calc-key" type="button" data-calc="operator" data-value="*" aria-label="Multiplicar" data-i18n-aria="calculator_multiply">×</button>
+                                    <button class="project-action calc-key" type="button" data-calc="delete" aria-label="Apagar último algarismo" data-i18n-aria="calculator_delete">⌫</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="7">7</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="8">8</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="9">9</button>
+                                    <button class="project-action calc-key" type="button" data-calc="operator" data-value="-">−</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="4">4</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="5">5</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="6">6</button>
+                                    <button class="project-action calc-key" type="button" data-calc="operator" data-value="+">+</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="1">1</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="2">2</button>
+                                    <button class="project-action calc-key" type="button" data-calc="digit" data-value="3">3</button>
+                                    <button class="project-action calc-key calc-equals" type="button" data-calc="equals" aria-label="Igual" data-i18n-aria="calculator_equals">=</button>
+                                    <button class="project-action calc-key calc-zero" type="button" data-calc="digit" data-value="0">0</button>
+                                    <button class="project-action calc-key" type="button" data-calc="decimal" aria-label="Ponto decimal" data-i18n-aria="calculator_decimal">.</button>
+                                </div>
+                                <p class="demo-status" id="calc-status" role="status" aria-live="polite"></p>
+                            </div>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section learning-section" id="percurso" aria-labelledby="learning-title">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="learning_eyebrow">A APRENDER</p>
+                    <h2 id="learning-title" data-i18n="learning_title">Percurso de aprendizagem</h2>
+                    <p data-i18n="learning_intro">Um retrato das áreas que estudo e dos conhecimentos que continuo a desenvolver.</p>
+                </div>
+                <div class="learning-layout">
+                    <ol class="learning-timeline" aria-label="Etapas de aprendizagem" data-i18n-aria="learning_steps_label">
+                        <li class="learning-step">
+                            <span class="learning-marker" aria-hidden="true">01</span>
+                            <div><h3 data-i18n="education_basic_title">Ensino básico</h3><p data-i18n="education_basic_text">Agrupamento de Escolas de Penacova · 9.º ano concluído.</p></div>
+                            <span class="learning-status" data-i18n="education_completed">Concluído</span>
+                        </li>
+                        <li class="learning-step">
+                            <span class="learning-marker" aria-hidden="true">02</span>
+                            <div><h3 data-i18n="education_title">Curso Técnico de Desenvolvimento de Software</h3><p data-i18n="education_text">Escola Profissional de Penacova · 10.º ano a frequentar.</p></div>
+                            <span class="learning-status" data-i18n="education_status">Em curso</span>
+                        </li>
+                        <li class="learning-step">
+                            <span class="learning-marker" aria-hidden="true">03</span>
+                            <div><h3 data-i18n="learning_web_title">Fundamentos Web</h3><p data-i18n="learning_web_text">HTML e CSS para estruturar e apresentar páginas.</p></div>
+                            <span class="learning-status" data-i18n="learning_status_short">A aprender</span>
+                        </li>
+                        <li class="learning-step">
+                            <span class="learning-marker" aria-hidden="true">04</span>
+                            <div><h3 data-i18n="learning_js_title">Interatividade</h3><p data-i18n="learning_js_text">JavaScript para dar comportamento às páginas.</p></div>
+                            <span class="learning-status" data-i18n="learning_status_short">A aprender</span>
+                        </li>
+                        <li class="learning-step">
+                            <span class="learning-marker" aria-hidden="true">05</span>
+                            <div><h3 data-i18n="learning_python_title">Programação</h3><p data-i18n="learning_python_text">Python e os seus fundamentos.</p></div>
+                            <span class="learning-status" data-i18n="learning_status_short">A aprender</span>
+                        </li>
+                    </ol>
+                    <aside class="goals-card" aria-labelledby="goals-title">
+                        <p class="eyebrow" data-i18n="goals_eyebrow">PRÓXIMOS PASSOS</p>
+                        <h3 id="goals-title" data-i18n="goals_title">Os meus objetivos</h3>
+                        <p data-i18n="goals_description">Continuar a praticar, criar novos projetos e melhorar a acessibilidade e a adaptação dos sites a diferentes ecrãs.</p>
+                        <div class="goal-tags">
+                            <span data-i18n="goal_projects">Novos projetos</span>
+                            <span data-i18n="goal_accessibility">Acessibilidade</span>
+                            <span data-i18n="goal_responsive">Design responsivo</span>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="content-section skills-section" id="competencias">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="skills_eyebrow">FERRAMENTAS E TECNOLOGIAS</p>
+                    <h2 data-i18n="skills_title">Competências</h2>
+                    <p data-i18n="skills_intro">Estas são as tecnologias que estou atualmente a aprender.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card"><span class="skill-icon icon-js">JS</span><span>JavaScript</span></div>
+                    <div class="skill-card"><span class="skill-icon icon-python">Py</span><span>Python</span></div>
+                    <div class="skill-card"><span class="skill-icon icon-html">5</span><span>HTML5</span></div>
+                    <div class="skill-card"><span class="skill-icon icon-css">3</span><span>CSS3</span></div>
+                </div>
+                <div class="tools-block">
+                    <h3 data-i18n="tools_title">Ferramentas que utilizo</h3>
+                    <div class="tool-list"><span>VS Code</span><span>Git</span><span>GitHub</span></div>
+                </div>
+                <div class="tools-block">
+                    <h3 data-i18n="interests_title">Áreas de interesse</h3>
+                    <div class="tool-list"><span data-i18n="interest_web">Desenvolvimento Web</span><span data-i18n="interest_cyber">Cibersegurança</span></div>
+                </div>
+                <div class="tools-block">
+                    <h3 data-i18n="languages_title">Idiomas e níveis</h3>
+                    <p class="language-portfolio-note" data-i18n="languages_site_note">Níveis de comunicação autodeclarados.</p>
+                    <div class="tool-list"><span data-i18n="language_portuguese">Português · nativo</span><span data-i18n="language_english">Inglês · básico</span></div>
+                </div>
+            </section>
+
+            <section class="content-section certificates-section" id="certificados" aria-labelledby="certificates-title">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="certificates_eyebrow">PERCURSO</p>
+                    <h2 id="certificates-title" data-i18n="certificates_title">Certificados e conquistas</h2>
+                    <p data-i18n="certificates_intro">Certificados dos cursos que concluí e que posso partilhar.</p>
+                </div>
+                <div class="certificate-grid">
+                    <a class="certificate-card" href="certificado-nau-curso-9c927cab9e6a4ee48534ad829c132671.pdf" target="_blank" rel="noopener noreferrer">
+                        <span class="certificate-icon" aria-hidden="true">✦</span>
+                        <span class="certificate-copy">
+                            <span class="certificate-copy-title" data-i18n="certificate_3d_title">Introdução à impressão 3D</span>
+                            <span class="certificate-copy-details" data-i18n="certificate_3d_details">Academia Portugal Digital · Curso concluído · 3 horas</span>
+                            <span class="certificate-link"><span data-i18n="certificate_view">Ver certificado</span><span aria-hidden="true">↗</span></span>
+                        </span>
+                    </a>
+                    <a class="certificate-card" href="certificado-nau-curso-531ab0b8f6a846539fdc3587d6506544.pdf" target="_blank" rel="noopener noreferrer">
+                        <span class="certificate-icon" aria-hidden="true">✦</span>
+                        <span class="certificate-copy">
+                            <span class="certificate-copy-title" data-i18n="certificate_cyber_title">Cidadão Ciberseguro</span>
+                            <span class="certificate-copy-details" data-i18n="certificate_cyber_details">Curso concluído · NAU</span>
+                            <span class="certificate-link"><span data-i18n="certificate_view">Ver certificado</span><span aria-hidden="true">↗</span></span>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="content-section recommendation-section" aria-labelledby="recommendations-title">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="recommendations_eyebrow">RECOMENDAÇÕES</p>
+                    <h2 id="recommendations-title" data-i18n="recommendations_title">Testemunhos</h2>
+                    <p data-i18n="recommendations_intro">As recomendações serão partilhadas apenas com autorização.</p>
+                </div>
+                <article class="recommendation-card">
+                    <span class="recommendation-icon" aria-hidden="true">“</span>
+                    <div class="recommendation-copy">
+                        <h3 data-i18n="recommendations_empty_title">Sem testemunhos publicados por enquanto</h3>
+                        <p data-i18n="recommendations_empty_text">Prefiro apresentar opiniões reais, dadas por pessoas com quem trabalhei ou estudei.</p>
+                    </div>
+                    <a class="project-action recommendation-action" href="mailto:beatrizsofiajesus5@gmail.com?subject=Recomenda%C3%A7%C3%A3o%20para%20o%20portef%C3%B3lio" data-i18n="recommendations_cta">Enviar uma recomendação</a>
+                </article>
+            </section>
+
+            <section class="contact-section" id="contactos">
+                <div>
+                    <p class="eyebrow" data-i18n="contact_eyebrow">VAMOS CONVERSAR</p>
+                    <h2 data-i18n="contact_title">Tens um projeto em mente?</h2>
+                    <p data-i18n="contact_text">Entra em contacto comigo ou visita os meus perfis.</p>
+                    <div class="contact-links" aria-label="Perfis profissionais" data-i18n-aria="contact_profiles">
+                        <a href="mailto:beatrizsofiajesus5@gmail.com">Email <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/beatrizsofiajesus5-commits" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://www.linkedin.com/in/beatriz-miranda2011/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <label for="contact-name" data-i18n="contact_name">Nome</label>
+                    <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="O teu nome" data-i18n-placeholder="contact_name_placeholder" required>
+                    <label for="contact-email" data-i18n="contact_email">Email</label>
+                    <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="120" placeholder="o.teu@email.com" data-i18n-placeholder="contact_email_placeholder" required>
+                    <label for="contact-message" data-i18n="contact_message">Mensagem</label>
+                    <textarea id="contact-message" name="message" rows="4" maxlength="2000" placeholder="Escreve a tua mensagem..." data-i18n-placeholder="contact_message_placeholder" required></textarea>
+                    <button class="button button-primary" type="submit" data-i18n="contact_send">Abrir aplicação de email</button>
+                    <p class="contact-form-note" data-i18n="contact_form_note">O teu programa de email será aberto com a mensagem preparada. Este site não guarda nem envia os teus dados.</p>
+                    <p class="demo-status" id="contact-status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <span data-i18n="footer">© 2026 Beatriz Miranda. Todos os direitos reservados.</span>
+            <a href="V2%20%282%29.pdf" target="_blank" rel="noopener noreferrer" data-i18n="button_cv">Currículo</a>
+            <a href="V2%20%282%29.pdf" download="Beatriz-Miranda-CV.pdf" data-i18n="button_cv_download">Descarregar currículo</a>
+        </footer>
+    </div>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Voltar ao topo" data-i18n-aria="back_to_top" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
